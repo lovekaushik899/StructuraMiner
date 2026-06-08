@@ -1,0 +1,8 @@
+biopython>=1.85
+numpy>=2.0
+pandas>=2.2
+scipy>=1.14
+networkx>=3.4
+freesasa>=2.2
+pydssp>=0.9
+tqdm>=4.67

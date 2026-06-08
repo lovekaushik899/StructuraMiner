@@ -21,7 +21,7 @@
 
 ## 🖼️ Framework Overview
 
-![StructuraMiner Workflow](StructuraMiner_workflow.png)
+![StructuraMiner Workflow](StructuraMiner_Workflow.png)
 
 *Complete multi-level extraction pipeline — from raw PDB input to seven analysis-ready output modules spanning atomic, residue, chain, and global levels.*
 

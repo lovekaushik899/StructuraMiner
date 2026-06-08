@@ -65,16 +65,16 @@ pip install -r requirements.txt
 
 ```bash
 # Single-core extraction (minimal)
-python pdb_feat.py --input my_protein.pdb
+python structuraminer.py --input my_protein.pdb
 
 # Multi-core extraction with custom output prefix
-python pdb_feat.py --input my_protein.pdb --cores 8 --output my_run
+python structuraminer.py --input my_protein.pdb --cores 8 --output my_run
 
 # Quiet mode (suppress logging)
-python pdb_feat.py --input my_protein.pdb --cores 4 --quiet
+python structuraminer.py --input my_protein.pdb --cores 4 --quiet
 
 # Check version
-python pdb_feat.py --version
+python structuraminer.py --version
 ```
 
 ### Python API
@@ -321,7 +321,7 @@ The interactions CSV enumerates every detected non-covalent contact. Key contrib
 
 ```
 StructuraMiner/
-├── pdb_feat.py                  # Main script — entire framework in one file
+├── structuraminer.py                  # Main script — entire framework in one file
 ├── requirements.txt             # Python dependencies
 ├── LICENSE                      # MIT License
 ├── README.md                    # This file

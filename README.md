@@ -365,7 +365,6 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 <div align="center">
 
-Made with ❤️ for the structural bioinformatics community
 
 **StructuraMiner v1.0.0** · [Report a Bug](https://github.com/lovekaushik899/StructuraMiner/issues) · [Request a Feature](https://github.com/lovekaushik899/StructuraMiner/issues)
 

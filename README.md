@@ -325,9 +325,8 @@ StructuraMiner/
 ├── requirements.txt             # Python dependencies
 ├── LICENSE                      # MIT License
 ├── README.md                    # This file
-└── docs/
-    ├── StructuraMiner_UserManual.pdf   # Full user manual (2–3 pages)
-    └── StructuraMiner_workflow.png     # Publication-grade workflow diagram
+├── StructuraMiner_UserManual.pdf   # Full user manual (2–3 pages)
+└── StructuraMiner_workflow.png     # Publication-grade workflow diagram
 ```
 
 ---

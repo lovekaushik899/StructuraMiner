@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧬 StructuraMiner
+# 🧬 StructuraMiner 
 
 ### Exhaustive Structural Feature Extraction from Protein Data Bank (PDB) Files
 

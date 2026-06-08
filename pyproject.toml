@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structuraminer"
+version = "1.0.0"
+description = "Exhaustive Structural Feature Extraction from Protein Data Bank (PDB) Files"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Love Kaushik", email = "lovekaushik0512.com"}
+]
+maintainers = [
+    {name = "Love Kaushik", email = "lovekaushik0512.com"}
+]
+keywords = [
+    "protein",
+    "pdb",
+    "bioinformatics",
+    "structural-biology",
+    "feature-extraction",
+    "machine-learning",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "biopython>=1.85",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.14",
+    "networkx>=3.4",
+    "freesasa>=2.2",
+    "pydssp>=0.9",
+    "tqdm>=4.67",
+]
+
+[project.urls]
+Homepage = "https://github.com/lovekaushik899/StructuraMiner"
+Documentation = "https://github.com/lovekaushik899/StructuraMiner#readme"
+Repository = "https://github.com/lovekaushik899/StructuraMiner.git"
+"Bug Tracker" = "https://github.com/lovekaushik899/StructuraMiner/issues"
+
+[project.scripts]
+structuraminer = "structuraminer:main"
+
+[tool.setuptools]
+py-modules = ["structuraminer"]
+include-package-data = true
+zip-safe = false
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+python_version = "38"

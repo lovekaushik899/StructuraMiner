@@ -80,7 +80,7 @@ python structuraminer.py --version
 ### Python API
 
 ```python
-from pdb_feat import PDBFeatureFramework
+from structuraminer import PDBFeatureFramework
 
 framework = PDBFeatureFramework(
     pdb_path="my_protein.pdb",

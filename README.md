@@ -77,30 +77,6 @@ python structuraminer.py --input my_protein.pdb --cores 4 --quiet
 python structuraminer.py --version
 ```
 
-### Python API
-
-```python
-from structuraminer import PDBFeatureFramework
-
-framework = PDBFeatureFramework(
-    pdb_path="my_protein.pdb",
-    cores=4,
-    output_prefix="my_run",
-    verbose=True,
-)
-
-results = framework.run()
-
-# Access individual dataframes
-global_df      = results["global"]          # 1 row × N global features
-per_res_df     = results["per_residue"]     # M residues × ~120 features
-per_atom_df    = results["per_atom"]        # K atoms × atom-level features
-per_chain_df   = results["per_chain"]       # C chains × chain features
-interactions   = results["interactions"]   # All pairwise non-covalent contacts
-ss_segments    = results["ss_segments"]    # HELIX / SHEET segments
-dist_matrix    = results["distance_matrix"]  # CA-CA pairwise distances
-```
-
 ---
 
 ## 📋 Command-Line Arguments

@@ -47,7 +47,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/StructuraMiner.git
+gh repo clone lovekaushik899/StructuraMiner
 cd StructuraMiner
 
 # (Recommended) Create a virtual environment

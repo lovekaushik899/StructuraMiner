@@ -356,12 +356,12 @@ StructuraMiner/
 If you use StructuraMiner in your research, please cite:
 
 ```bibtex
-@software{StructuraMiner2024,
-  author  = {<Your Name>},
+@software{StructuraMiner2026,
+  author  = {Love Kaushik},
   title   = {StructuraMiner: Exhaustive Structural Feature Extraction from PDB Files},
   version = {1.0.0},
-  year    = {2024},
-  url     = {https://github.com/<your-username>/StructuraMiner},
+  year    = {2026},
+  url     = {https://github.com/lovekaushik899/StructuraMiner.git},
   license = {MIT}
 }
 ```
@@ -392,6 +392,6 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 Made with ❤️ for the structural bioinformatics community
 
-**StructuraMiner v1.0.0** · [Report a Bug](https://github.com/<your-username>/StructuraMiner/issues) · [Request a Feature](https://github.com/<your-username>/StructuraMiner/issues)
+**StructuraMiner v1.0.0** · [Report a Bug](https://github.com/lovekaushik899/StructuraMiner/issues) · [Request a Feature](https://github.com/lovekaushik899/StructuraMiner/issues)
 
 </div>

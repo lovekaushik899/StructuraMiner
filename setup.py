@@ -27,7 +27,7 @@ setup(
     name="structuraminer",
     version=version,
     author="Love Kaushik",
-    author_email="lovekaushik0512.com",
+    author_email="lovekaushik271@gmail.com",
     description="Exhaustive Structural Feature Extraction from Protein Data Bank (PDB) Files",
     long_description=long_description,
     long_description_content_type="text/markdown",

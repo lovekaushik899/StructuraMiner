@@ -13,7 +13,7 @@
 
 **StructuraMiner** is a production-grade, multi-level computational framework that exhaustively mines structural, physicochemical, topological, and interaction-based features from any Protein Data Bank (PDB) file — and outputs everything as clean, analysis-ready CSV tables.
 
-[📖 User Manual (PDF)](StructuraMiner_UserManual.pdf) · [🚀 Quick Start](#-quick-start) · [📦 Outputs](#-output-files) · [🔬 Applications](#-applications) · [💬 Issues](https://github.com/lovekaushik899/StructuraMiner/issues)
+[🚀 Quick Start](#-quick-start) · [📦 Outputs](#-output-files) · [🔬 Applications](#-applications) · [💬 Issues](https://github.com/lovekaushik899/StructuraMiner/issues)
 
 </div>
 

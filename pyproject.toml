@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Love Kaushik", email = "lovekaushik0512.com"}
+    {name = "Love Kaushik", email = "lovekaushik271@gmail.com"}
 ]
 maintainers = [
-    {name = "Love Kaushik", email = "lovekaushik0512.com"}
+    {name = "Love Kaushik", email = "lovekaushik271@gmail.com"}
 ]
 keywords = [
     "protein",
